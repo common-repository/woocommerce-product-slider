@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+.wa_wps_clearfix {
+	float: none;
+	clear: both;
+}
+
+/****************  read more text ****************/
+.wa_wps_more{
+	color:#ca7700;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:11px;"
+}
+
+/**************** Slider post title ****************/
+.wa_wps_title{
+	clear: both;
+	height: auto;
+	overflow: hidden;
+}
+
+/**************** Slider product price ****************/
+.wa_wps_price {
+	clear: both;
+}
+
+/****************  Post content excerpt ****************/
+.wa_wps_foo_con{
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	font-style:normal;
+	color:#222222;
+	width:140px;
+	height:auto;
+}
+
+/****************  Carousel ****************/
+.wa_wps_image_carousel {
+	padding: 15px 10px 15px 10px;
+	position: relative;
+}
+
+/****************  Slider product image ****************/
+.wa_wps_image_carousel img {
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 9px;
+	margin:5px 0 5px 0;"
+	display: block;
+	float: left;
+}
+
+#wa_wps_foo_content{
+	padding: 9px;
+	margin: 7px;
+	display: block;
+	float: left;
+	font-size: 70%;
+}
+
+/**************** slider controllers  ****************/
+.wa_wps_image_carousel .wa_wps_prev, .wa_wps_image_carousel .wa_wps_next {
+	background: transparent url(../images/carousel_control.png) no-repeat 0 0;
+	display: block;
+	width: 15px;
+	height: 21px;	
+	position: absolute;
+	top: 70px;
+	z-index: 250;			
+}
+.wa_wps_image_carousel .wa_wps_prev {
+	background-position: 0 0;
+	left: -0px;
+}
+.wa_wps_image_carousel .wa_wps_prev:hover {
+	left: -1px;
+}			
+.wa_wps_image_carousel .wa_wps_next {
+	background-position: -18px 0;
+	right: -0px;
+}
+.wa_wps_image_carousel .wa_wps_next:hover {
+	right: -1px;
+}	
+
+a.wa_wps_prev span, a.wa_wps_next span {
+    display: none;
+}
+
+/**************** Pagination controls ****************/
+.wa_wps_image_carousel .wa_wps_pagination {
+	text-align: center;
+	margin: 0 auto;
+	margin: 20px;
+}
+.wa_wps_image_carousel .wa_wps_pagination a {
+	background: transparent url(../images/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+	z-index: 250;	
+}
+.wa_wps_image_carousel .wa_wps_pagination a.selected {
+	background: transparent url(../images/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;				
+}
+
+/************  add to cart button ****************/
+a.wa_wps_button,  .wa_wps_button {
+display: inline-block;
+margin: 5px 5px 5px 0;
+padding: 2px 13px 2px;
+border: 1px solid #ccc;
+color: #444;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+position: relative;
+font-size: 1em !important;
+font-family: inherit;
+overflow: visible;
+text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background: #237fd7;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e5e5e5));
+background-image: -webkit-linear-gradient(top, #fefefe, #e5e5e5);
+background-image: -moz-linear-gradient(top, #fefefe, #e5e5e5);
+background-image: -ms-linear-gradient(top, #fefefe, #e5e5e5);
+background-image: -o-linear-gradient(top, #fefefe, #e5e5e5);
+background-image: linear-gradient(top, #fefefe, #e5e5e5);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#e5e5e5');
+-webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, inset 0 0 0 1px rgba(255,255,255,0.6), 0 1px 2px hsla(0, 0%, 0%, .1) /*Shadow*/;
+-moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, inset 0 0 0 1px rgba(255,255,255,0.6), 0 1px 2px hsla(0, 0%, 0%, .1) /*Shadow*/;
+box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, inset 0 0 0 1px rgba(255,255,255,0.6), 0 1px 2px hsla(0, 0%, 0%, .1) /*Shadow*/;
+-webkit-transition: all ease-in-out .2s;
+-moz-transition: all ease-in-out .2s;
+}
